@@ -7,7 +7,6 @@ const csv=require('csvtojson');
 
 let spaceBetweenLines = 15;
 
-
 csv()
 .fromFile(csvFilePath)
 .then((jsonObj)=>{
@@ -20,10 +19,4 @@ csv()
     	fs.writeFileSync('./output.svg', $.html('svg'), 'utf-8')
     	console.log('converted!!')
     })
-    /**
-     * [
-     * 	{a:"1", b:"2", c:"3"},
-     * 	{a:"4", b:"5". c:"6"}
-     * ]
-     */ 
 })
