@@ -1,4 +1,4 @@
-#How to
+# How to
 
 - run `npm install` in terminal
 - add your data to the input.csv
